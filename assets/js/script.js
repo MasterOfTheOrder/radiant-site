@@ -84,8 +84,3 @@ $(document).ready(function() {
 		$('#menu-item').toggleClass( "show-menu hide-menu" );
 	});
 });
-
-document.getElementById('#btn-newsletter').addEventListener("click", (e) => {
-	e.preventDefault();
-	
-})

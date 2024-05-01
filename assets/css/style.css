@@ -58,7 +58,7 @@ section{
 
 
 /*Bootstrap*/
-.navbar-vira{
+.navbar-Radiant{
 	background-image: none;
 	background-color: transparent;
 	margin-bottom: 0;
@@ -144,15 +144,15 @@ section{
 	padding: 100px 0;
 }
 
-/*Vira Card*/
-.vira-card{
+/*Radiant Card*/
+.Radiant-card{
 	text-align: center;
 	/*margin-bottom: 45px;*/
 }
-.vira-card .vira-card-header{
+.Radiant-card .Radiant-card-header{
 	margin-bottom: 45px;
 }
-.vira-card .vira-card-header .card-icon{
+.Radiant-card .Radiant-card-header .card-icon{
 	border: 1px solid #191b44;
 	border-radius: 100%;
 	display: inline-block;
@@ -161,11 +161,11 @@ section{
 	line-height: 120px;
 	position: relative;
 }
-.vira-card .vira-card-header .card-icon .fa{
+.Radiant-card .Radiant-card-header .card-icon .fa{
 	margin-top: 45px;
 	font-size: 30px;
 }
-.vira-card .vira-card-header .card-icon:after{
+.Radiant-card .Radiant-card-header .card-icon:after{
 	content: '';
 	height: 100px;
 	width: 100px;
@@ -175,17 +175,17 @@ section{
 	top: 9px;
 	left: 9px;
 }
-.vira-card .vira-card-header .card-icon span{
+.Radiant-card .Radiant-card-header .card-icon span{
 	color: #fff;
 	font-size: 45px;
 	position: relative;
 	z-index: 1;
 }
-.vira-card .vira-card-content h3{
+.Radiant-card .Radiant-card-content h3{
 	position: relative;
 	margin-bottom: 60px
 }
-.vira-card .vira-card-content h3:after{
+.Radiant-card .Radiant-card-content h3:after{
 	content: '';
 	height: 1px;
 	width: 44px;
@@ -194,15 +194,15 @@ section{
 	top: 52px;
 	left: calc(50% - 22px);
 }
-.vira-card .vira-card-content p{
+.Radiant-card .Radiant-card-content p{
 	font-size: 15px;
 }
-.vira-card .vira-card-content .social-icons{
+.Radiant-card .Radiant-card-content .social-icons{
 	margin-top: 30px;
 }
 
 /*Button*/
-.vira-btn{
+.Radiant-btn{
 	border-color: #191b44;
 	font-style: italic;
 	color: #191b44;
@@ -213,7 +213,7 @@ section{
 	background-color: transparent;
 	transition: all 0.3s ease-in-out;
 }
-.vira-btn:hover{
+.Radiant-btn:hover{
 	background-color: #191b44;
 	color: #fff;
 }
@@ -374,11 +374,11 @@ section{
 	padding-top: 0;
 	padding-bottom: 40px;
 }
-.header .vira-btn{
+.header .Radiant-btn{
 	border-color: #fff;
 	color: #fff;
 }
-.header .vira-btn:hover{
+.header .Radiant-btn:hover{
 	background-color: #fff;
 	color: #424242;
 }
@@ -415,20 +415,20 @@ section{
 }
 
 
-.vira-quote{
+.Radiant-quote{
 	background-image: url(../images/3.jpg);
 	/*padding: 120px 0;*/
 	color: #fff;
 	font-style: italic;
 }
-.vira-quote p{
+.Radiant-quote p{
 	font-size: 32px;
 	color: #fff;
 }
-.vira-quote .quote{
+.Radiant-quote .quote{
 	margin-bottom: 40px;
 }
-.vira-quote .author{
+.Radiant-quote .author{
 	font-size: 21px;
 	margin-bottom: 40px;
 }
@@ -459,14 +459,14 @@ section{
 .subscribe{
 	background-image: url(../images/11.jpg);
 }
-.subscribe .vira-btn{
+.subscribe .Radiant-btn{
 	margin-bottom: 0;
 	color: #424242;
 	font-weight: 700;
 	border-color: #fff;
 	background-color: #fff;
 }
-.subscribe .vira-btn:hover{
+.subscribe .Radiant-btn:hover{
 	background-color: transparent;
 	color: #fff;
 }
@@ -482,28 +482,28 @@ section{
     color: #fff;
 }
 
-.contact .vira-card{
+.contact .Radiant-card{
 	background-color: #f8f8f8;
 	padding: 35px 0;
 	transition: all 0.3s ease-in-out;
 	margin-bottom: 45px;
 }
-/*.contact .vira-card:hover{
+/*.contact .Radiant-card:hover{
 	box-shadow: 0px 4px 2px rgba(17, 17, 17, 0.3);
 }*/
-.contact .vira-card .vira-card-header{
+.contact .Radiant-card .Radiant-card-header{
 	margin-bottom: 15px;
 	font-size: 21px;
 	color: #191b44;
 }
-.contact .vira-card .vira-card-content h3{
+.contact .Radiant-card .Radiant-card-content h3{
 	letter-spacing: 2px;
 	margin-bottom: 45px;
 }
-.contact .vira-card .vira-card-content h3:after{
+.contact .Radiant-card .Radiant-card-content h3:after{
 	top: 40px;
 }
-.contact .vira-card .vira-card-content p{
+.contact .Radiant-card .Radiant-card-content p{
 	font-size: 18px;
 }
 .footer{
@@ -527,10 +527,10 @@ section{
 
 
 /*animations*/
-.vira-card .vira-card-header .card-icon:after{
+.Radiant-card .Radiant-card-header .card-icon:after{
 	transition: all 0.3s ease-in-out;
 }
-.vira-card:hover .vira-card-header .card-icon:after{
+.Radiant-card:hover .Radiant-card-header .card-icon:after{
 	height: 120px;
 	width: 120px;
 	top: -1px;
@@ -551,7 +551,7 @@ section{
 
 
 @media (max-width: 767px){
-	.vira-card{
+	.Radiant-card{
 		margin-bottom: 60px;
 	}
 }
